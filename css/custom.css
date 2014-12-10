@@ -1,11 +1,192 @@
 /*Use this for custom stuff*/
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-color: red;
+color: black;
 }
 
 
 .testImg {
 	background: url(http://placehold.it/3000x1000) 0 0 no-repeat;
 	height: 1000px;
+}
+
+
+.navbar {
+	background-color: #25727e; 
+	border-color: #25727e;
+	border-radius: 3px
+
+
+} 
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus {
+
+background-color: #25727e;
+font-size: 20px;
+line-height: 30px;
+font-weight: bold;
+
+
+
+}
+
+.navbar-inverse .navbar-nav>li>a {
+color: black ;
+font-size:20px;
+
+line-height: 30px;
+font-weight: bold;
+
+
+} 
+
+body {
+font-family: "Helvetica Neue"
+
+
+} 
+
+
+.tabsquare { 
+
+background: #606a72; 
+position:relative;
+border-radius: 2% ; 
+
+
+width: 320px;
+height: 320px;
+padding-top: 5px;
+margin-bottom: 10px;
+color: white;
+margin-left: 10px;
+box-shadow: 5px 5px 5px #888888;
+
+}
+
+.head { 
+ 
+ color: white;
+ font-weight: bold;
+
+}
+
+.text { 
+
+font-size: 18.5px;
+
+
+}
+
+
+.btn-info:hover, .btn-info:focus, .btn-info:active, .btn-info.active, .open>.dropdown-toggle.btn-info {
+color: #fff;
+background-color: #32CD32;
+border-color:#32CD32 ;
+}
+
+.btn-info {
+color: #fff;
+background-color:#54b948 ;
+border-color:#54b948 ;
+} 
+
+hr {
+margin-top: 20px;
+margin-bottom: 10px;
+border: 0;
+border-top: 1px solid #eee;
+
+}
+
+
+
+.rec { 
+
+background: #DCDCDC; 
+position:relative;
+border-radius: 2% ; 
+
+
+width: 400px;
+height: 350px;
+padding-top: 5px;
+margin-bottom: 10px;
+color: white;
+margin-left: 10px;
+padding-left:10px;
+padding-right:10px;
+
+}
+
+.rec2 { 
+
+background: #DCDCDC; 
+position:relative;
+border-radius: 2% ; 
+
+
+width: 400px;
+height: 320px;
+padding-top: 30px;
+margin-bottom: 10px;
+color: white;
+margin-left: 10px;
+padding-left:10px;
+padding-right:10px;
+}
+
+.rec3 { 
+
+background: #DCDCDC; 
+position:relative;
+border-radius: 2% ; 
+
+
+width: 400px;
+height: 400px;
+padding-top: 15px;
+margin-bottom: 10px;
+color: white;
+margin-left: 10px;
+padding-left:10px;
+padding-right:10px;
+}
+
+
+.under { 
+
+text-decoration:underline;
+font-weight: bold;
+
+
+}
+
+.shadow { 
+ 
+    box-shadow: 3px 3px 4px 
+
+}  
+
+.shadow { 
+
+border-radius: 3px;
+
+}
+
+
+.tabsquare2 { 
+
+background: #606a72; 
+position:relative;
+border-radius: 2% ; 
+
+
+width: 320px;
+height: 320px;
+padding-top: 5px;
+margin-bottom: 10px;
+color: white;
+margin-left: 115px;
+box-shadow: 5px 5px 5px #888888;
 }
